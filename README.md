@@ -2,7 +2,7 @@
 
 Welcome to the core RESTful engine for the **Pokémon 3D API**. This repository handles the backend logic and JSON delivery that powers 3D Pokémon integration in modern web applications.
 
-**Looking for the 3D Models?** Visit the [Assets Repository](https://github.com/Pokemon3D-API/assets) for raw files and model counts.
+**Looking for the 3D Models?** Visit the [Assets Repository](https://github.com/Pokemon-3D-api/assets) for raw files and model counts.
 
 **See it in action!** [![Live App 1](https://img.shields.io/badge/Live-Pokedex%20Viewer%201-brightgreen)](https://sudhanshu-ambastha.github.io/Pokedex/) 
 [![Live App 2](https://img.shields.io/badge/Live-Pokedex%20Viewer%202-brightgreen)](https://pokemon-3d-api.oneapp.dev/)
