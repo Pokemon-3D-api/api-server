@@ -25,6 +25,7 @@ const limiter = rateLimit({
     standardHeaders: true,
     legacyHeaders: false,
     message: 'Too many requests, please try again after 1 minute.',
+    validate: { trustProxy: false },
 });
 
 app.use(ipfilter.IpFilter(blacklist, { mode: 'deny' }));
