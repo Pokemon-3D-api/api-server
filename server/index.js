@@ -14,7 +14,7 @@ app.use(cors());
 app.set('trust proxy', 1);
 
 app.use((req, res, next) => {
-    ipfilter.IpFilter(blacklist, { mode: 'deny' })(req, res, next);
+    ipfilter.IpFilter(blacklist, { mode: 'deny', log: false })(req, res, next);
 });
 
 const limiter = rateLimit({
