@@ -16154,9 +16154,19 @@
           "formName": "regular"
         },
         {
+          "name": "Roaming Gimmighoul",
+          "model": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/multiform/999.glb",
+          "formName": "multiform"
+        },
+        {
           "name": "Shiny Gimmighoul",
           "model": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/shiny/999.glb",
           "formName": "shiny"
+        },
+        {
+          "name": "Shiny Roaming Gimmighoul",
+          "model": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt/multiShinyForm/999.glb",
+          "formName": "multishinyform"
         }
       ]
     },
